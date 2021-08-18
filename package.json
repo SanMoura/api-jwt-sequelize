@@ -1,0 +1,24 @@
+{
+  "name": "api-jwt-sequelize",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/SanMoura/api-jwt-sequelize.git",
+  "author": "Moura, Marlus S. <santiago.marlus@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "http": "^0.0.1-security",
+    "jsonwebtoken": "^8.5.1",
+    "mysql2": "^2.3.0",
+    "request": "^2.88.2",
+    "sequelize": "^6.6.5"
+  },
+  "scripts": {
+    "start": "nodemon src/index.js"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.6"
+  }
+}
